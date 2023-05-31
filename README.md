@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @alexcpn Alex Punnen
 - 👀 I’m interested in AI, Neural Networks
-- 🌱 I’m currently learning AI, Neural Networks
-- 💞️ I’m looking to collaborate on Video Analytics
+- 🌱 I’m currently learning AI, Neural Networks, Transformers
+- 💞️ I’m looking to collaborate on AI
 - 📫 How to reach me alexcpn@gmail.com
 
 <!---
