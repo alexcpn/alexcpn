@@ -1,4 +1,4 @@
-# Hi, I'm Alex Punnen
+# Hi, I'm Alex 
 
 **Software Architect | AI Systems Researcher | Distributed Systems | Technical Writer | Open Source Builder**
 
@@ -73,3 +73,7 @@ My work spans:
 ## Current interests
 
 AI-native software engineering, practical transformer systems, distributed architecture, cloud-native platforms, and production-grade engineering workflows.
+
+## Note
+Views expressed here are my own and do not reflect those of my employer.  
+Open source work on this profile is independent and does not include any proprietary or confidential employer material.
