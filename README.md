@@ -4,6 +4,25 @@
 
 I work at the intersection of AI systems, distributed software, cloud-native platforms, and practical software architecture.
 
+## What I'm building now
+
+Tools that give coding agents better context with fewer tokens.
+
+| Project | What it does |
+|---|---|
+| [catalogify](https://github.com/alexcpn/catalogify) | Builds a portable OKF knowledge base from code and git history, with checkable evidence, and keeps it current as the code evolves. `pip install catalogify` |
+| [logreduce](https://github.com/alexcpn/log_tfidf_reducer) | A single Rust binary that cuts huge logs down to an LLM token budget while keeping every error: 99% critical-signal recall on 35 real CI incidents. Hooks into Claude Code, Codex and Copilot. |
+| [harness-distill](https://github.com/alexcpn/harness-distill) | Distills coding-agent sessions from Claude Code, Codex, Cursor, Copilot and others into `AGENTS.md` + `HANDOFF.md`, so no decision stays trapped in one tool's memory. |
+| [speckit_okf](https://github.com/alexcpn/speckit_okf) | A Spec Kit extension for generating Open Knowledge Format bundles. |
+
+## Research and experiments
+
+- [eval-driven-development](https://github.com/alexcpn/eval-driven-development): production-grade agentic AI with evaluation-driven development
+- [llm-trust-audit](https://github.com/alexcpn/llm-trust-audit): black-box audits of LLM endpoints (change one detail that shouldn't matter, measure what changes), with paper, harness and run data
+- [speckit_test](https://github.com/alexcpn/speckit_test): why "the specification is the source of truth" conflicts with iteratively developed code
+- [tinytransformer](https://github.com/alexcpn/tinytransformer): a small language model built to explain transformers as simply as possible
+- [presto_in_kubernetes](https://github.com/alexcpn/presto_in_kubernetes): Trino / Presto on Kubernetes with a standalone Hive metastore and Postgres
+
 ## About me
 
 My work spans:
@@ -72,7 +91,7 @@ My work spans:
 
 ## Current interests
 
-AI-native software engineering, practical transformer systems, distributed architecture, cloud-native platforms, and production-grade engineering workflows.
+Context engineering for coding agents, evaluation-driven AI development, practical transformer systems, distributed architecture, cloud-native platforms, and production-grade engineering workflows.
 
 ## Note
 Views expressed here are my own and do not reflect those of my employer.  
