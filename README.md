@@ -12,17 +12,7 @@ How teams move from AI-assisted coding to an AI-native SDLC: specs, context, eva
 - [From Waterfall to Agile to Agentic AI: Software Engineering 3.0](https://medium.com/better-software/from-waterfall-to-agile-to-agentic-ai-software-engineering-3-0-493c7484f481)
 - [Why SDD is not a silver bullet](https://pub.towardsai.net/why-specification-driven-development-sdd-is-not-a-silver-bullet-for-ai-assisted-sdlc-491c71bcf835), backed by the [speckit_test](https://github.com/alexcpn/speckit_test) experiment: why "the specification is the source of truth" conflicts with iteratively developed code
 - [The Software That Built Itself](https://pub.towardsai.net/the-software-that-built-itself-well-defined-intents-are-all-you-need-064503c3b67b): well-defined intents are all you need
-- [Improve context before you improve your codebase](https://pub.towardsai.net/improve-context-before-you-improve-your-codebase-8475211c5a8d)
-
-## What I'm building now
-
-Tools that give coding agents better context with fewer tokens.
-
-| Project | What it does |
-|---|---|
-| [speckit_okf](https://github.com/alexcpn/speckit_okf) | Spec Kit extension that generates Open Knowledge Format (OKF) bundles, listed in the [Spec Kit community extensions](https://speckit-community.github.io/extensions/okf). |
-| [catalogify](https://github.com/alexcpn/catalogify) | Builds a portable OKF knowledge base from code and git history, with checkable evidence, and keeps it current as the code evolves. `pip install catalogify` |
-
+- [Improve context before you improve your codebase](https://pub.towardsai.net/improve-context-before-you-improve-your-codebase-8475211c5a8d), implemented as [speckit_okf](https://github.com/alexcpn/speckit_okf) (a Spec Kit extension, listed in the [community extensions](https://speckit-community.github.io/extensions/okf)) and [catalogify](https://github.com/alexcpn/catalogify) (`pip install catalogify`): Open Knowledge Format bundles built from code and git history and kept current as the code evolves
 
 ## Research and experiments
 
