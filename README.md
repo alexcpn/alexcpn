@@ -1,8 +1,18 @@
 # Hi, I'm Alex 
 
-**Software Architect | AI Systems Researcher | Distributed Systems | Technical Writer | Open Source Builder**
+**Principal AI Systems Architect | AI-native SDLC & Agentic Systems | Evals | Distributed Systems | Open Source Builder**
 
-I work at the intersection of AI systems, distributed software, cloud-native platforms, and practical software architecture.
+I work at the intersection of AI systems, distributed software, cloud-native platforms, and practical software architecture. Today I architect the AI engineering transformation of a ~400-person, ~15-team business unit: prototypes first, then adoption by teams, measured against the historical baseline.
+
+## AI transformation of software engineering
+
+How teams move from AI-assisted coding to an AI-native SDLC: specs, context, evals and harnesses, tested in experiments rather than slides.
+
+- [The AI SDLC Manifesto](https://pub.towardsai.net/the-ai-sdlc-manifesto-rethinking-ai-native-software-development-ae78cb56f599): rethinking AI-native software development
+- [From Waterfall to Agile to Agentic AI: Software Engineering 3.0](https://medium.com/better-software/from-waterfall-to-agile-to-agentic-ai-software-engineering-3-0-493c7484f481)
+- [Why SDD is not a silver bullet](https://pub.towardsai.net/why-specification-driven-development-sdd-is-not-a-silver-bullet-for-ai-assisted-sdlc-491c71bcf835), backed by the [speckit_test](https://github.com/alexcpn/speckit_test) experiment: why "the specification is the source of truth" conflicts with iteratively developed code
+- [The Software That Built Itself](https://pub.towardsai.net/the-software-that-built-itself-well-defined-intents-are-all-you-need-064503c3b67b): well-defined intents are all you need
+- [Improve context before you improve your codebase](https://pub.towardsai.net/improve-context-before-you-improve-your-codebase-8475211c5a8d)
 
 ## What I'm building now
 
@@ -10,16 +20,16 @@ Tools that give coding agents better context with fewer tokens.
 
 | Project | What it does |
 |---|---|
+| [speckit_okf](https://github.com/alexcpn/speckit_okf) | Spec Kit extension that generates Open Knowledge Format (OKF) bundles, listed in the [Spec Kit community extensions](https://speckit-community.github.io/extensions/okf). |
 | [catalogify](https://github.com/alexcpn/catalogify) | Builds a portable OKF knowledge base from code and git history, with checkable evidence, and keeps it current as the code evolves. `pip install catalogify` |
-| [logreduce](https://github.com/alexcpn/log_tfidf_reducer) | A single Rust binary that cuts huge logs down to an LLM token budget while keeping every error: 99% critical-signal recall on 35 real CI incidents. Hooks into Claude Code, Codex and Copilot. |
-| [harness-distill](https://github.com/alexcpn/harness-distill) | Distills coding-agent sessions from Claude Code, Codex, Cursor, Copilot and others into `AGENTS.md` + `HANDOFF.md`, so no decision stays trapped in one tool's memory. |
 
 
 ## Research and experiments
 
 - [Eval Driven Agentic AI Development](https://github.com/alexcpn/eval-driven-development): production-grade agentic AI with evaluation-driven development
 - [LLM-Trust-audit](https://github.com/alexcpn/llm-trust-audit): black-box audits of LLM endpoints (change one detail that shouldn't matter, measure what changes), with paper, harness and run data
-- [SDD/Speckit_Limitations](https://github.com/alexcpn/speckit_test): why "the specification is the source of truth" conflicts with iteratively developed code
+- **Elevation Transformer**: a cross-attention transformer surrogate for Irregular Terrain Model (ITM) path loss. ~32M samples on a single L4 GPU, RMSE 62.0 → 7.36 dB (median 2.99 dB); conformal lower bounds let a spectrum engine skip ITM calls that cannot change a grant. [Paper](https://www.researchgate.net/publication/407527160_Transformer-Based_Surrogate_Model_for_Irregular_Terrain_Model_Path_Loss_Prediction)
+- **Zarr elevation data system**: USGS 3DEP terrain in Zarr chunked storage with LMDB tile keys and an R-tree: 10.6× compression (170 GB → 18 GB), 4.7–5.9M elevation lookups/s. [White paper](https://alexcpn.github.io/papers/zarr/elevation_data_white_paper.pdf)
 - [Tiny Transformer](https://github.com/alexcpn/tinytransformer): a small language model built to explain transformers as simply as possible
 - [Data LakeHouse OS](https://github.com/alexcpn/presto_in_kubernetes): Trino / Presto on Kubernetes with a standalone Hive metastore and Postgres
 
